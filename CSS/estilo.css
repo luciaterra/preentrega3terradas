@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(./image/mifondo.jpg);
+}
+
+header {
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: center;
+}
+
+.encabezado-principal {
+    color: cyan;
+    padding: 15px;
+}
+
+.main {
+    list-style: none;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+    li {
+        padding: 10px;
+        list-style-type: none;
+    }
+
+    footer {
+        display: flex;
+        justify-content: space-around;
+        padding-top: 20px;
+    }
+
+    @media only screen and (min-width: 768px) {
+        .gridContainer {
+            display: grid;
+        }
+
+        header {
+            text-align: center;
+            border-bottom: 2px solid goldenrod;
+        }
+        header ul li {
+                    display: inline-block;
+                    margin: 20px;
+                    list-style-type: none;
+                }
+
+        a {
+            color: black;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+
+        .bordesRedondeados {
+            border-radius: 2px;
+        }
+
+        .textos {
+            text-align: center;
+            font-size: 20px;
+            color: black;
+        }
+    }
+
+    footer {
+        color: cyan;
+        text-align: center;
+
+    footer ul li {
+                list-style-type: none;
+            }
+
+    img {
+        width: 200px;
+        height: 200px;
+    }
